@@ -23,7 +23,8 @@
   <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
   
   <meta name="keywords" content="carmen king, braid bar, partybraider, kid entertainment, adult entertainment, themed childrens parties , kids party checklist, kids entertainment, kids entertainment for parties, kids entertainment for parties los angeles, kids entertainment for parties los vegas " />
-</head>
+  <script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
+  </head>
 <body><amp-sidebar id="sidebar" class="cid-rtTxGTsok0" layout="nodisplay" side="right">
         <div class="builder-sidebar" id="builder-sidebar">
             <button on="tap:sidebar.close" class="close-sidebar">
@@ -50,6 +51,21 @@
                     </a></div>
             </div>
     </amp-sidebar>
+
+<!-- Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-145269352-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-145269352-1');
+</script>
+
+<!-- /Google Analytics -->
+
+
   <section class="menu horizontal-menu cid-rtTxGTsok0" id="menu1-d">
 
     
@@ -216,5 +232,6 @@
 
   
   
-</body>
+<amp-user-notification id="my-notification" style=" color: #424a4d;  background: rgba(234, 239, 241, 0.99); padding: 10px 5%; display:inline-block; text-align: center;" layout="nodisplay" class="cookieText">We use cookies to give you the best experience. Read our <a style="color: #424a4d; text-decoration: underline;" href="privacy.html">cookie policy</a>.<button on="tap:my-notification.dismiss" style="background-color: #ffffff; margin-left: 10px; cursor: pointer; border-radius: 4px">x</button>                            </amp-user-notification>
+ </body>
 </html>
